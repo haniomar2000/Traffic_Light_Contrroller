@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<document>
+<!--The data in this file is primarily intended for consumption by Xilinx tools.
+The structure and the elements are likely to change over the next few releases.
+This means code written to parse this file will need to be revisited each subsequent release.-->
+<application name="pa" timeStamp="Tue May 30 09:29:50 2023">
+<section name="Project Information" visible="false">
+<property name="ProjectID" value="6d79d003afe24213b1531f80dc578c9d" type="ProjectID"/>
+<property name="ProjectIteration" value="1" type="ProjectIteration"/>
+</section>
+<section name="PlanAhead Usage" visible="true">
+<item name="Project Data">
+<property name="SrcSetCount" value="1" type="SrcSetCount"/>
+<property name="ConstraintSetCount" value="1" type="ConstraintSetCount"/>
+<property name="DesignMode" value="RTL" type="DesignMode"/>
+<property name="SynthesisStrategy" value="Vivado Synthesis Defaults" type="SynthesisStrategy"/>
+<property name="ImplStrategy" value="Vivado Implementation Defaults" type="ImplStrategy"/>
+</item>
+<item name="Java Command Handlers">
+<property name="AddSources" value="2" type="JavaHandler"/>
+<property name="CloseProject" value="1" type="JavaHandler"/>
+<property name="NewProject" value="1" type="JavaHandler"/>
+<property name="SaveAllFiles" value="1" type="JavaHandler"/>
+<property name="SaveProjectAs" value="2" type="JavaHandler"/>
+<property name="SimulationClose" value="1" type="JavaHandler"/>
+<property name="SimulationRun" value="2" type="JavaHandler"/>
+<property name="WaveformNewConfiguration" value="1" type="JavaHandler"/>
+<property name="WaveformSaveConfiguration" value="1" type="JavaHandler"/>
+<property name="WaveformSaveConfigurationAs" value="1" type="JavaHandler"/>
+</item>
+<item name="Gui Resources Info">
+<property name="FINISH, Finish" value="3" type="GuiResourceData"/>
+<property name="NEXT, Next " value="9" type="GuiResourceData"/>
+<property name="PAResourceAtoD.AddSrcWizard_SPECIFY_OR_CREATE_CONSTRAINT_FILES, Add or create constraints" value="1" type="GuiResourceData"/>
+<property name="PAResourceAtoD.ConstraintsChooserPanel_ADD_FILES, Add Files" value="1" type="GuiResourceData"/>
+<property name="PAResourceAtoD.ConstraintsChooserPanel_CREATE_FILE, Create File" value="1" type="GuiResourceData"/>
+<property name="PAResourceAtoD.CreateConstraintsFilePanel_FILE_NAME, abd" value="1" type="GuiResourceData"/>
+<property name="PAResourceAtoD.CreateSrcFileDialog_FILE_NAME, Traffic_Light_Controller" value="1" type="GuiResourceData"/>
+<property name="PAResourceAtoD.CreateSrcFileDialog_FILE_NAME, Traffic_Light_Controller_TB" value="1" type="GuiResourceData"/>
+<property name="PAResourceCommand.PACommandNames_CLOSE_PROJECT, Close Project" value="1" type="GuiResourceData"/>
+<property name="PAResourceCommand.PACommandNames_SAVE_PROJECT_AS, Save Project As..." value="2" type="GuiResourceData"/>
+<property name="PAResourceCommand.PACommandNames_SIMULATION_RUN_BEHAVIORAL, Run Behavioral Simulation" value="2" type="GuiResourceData"/>
+<property name="PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, [root, Constraints, constrs_1, abd.xdc], 4, false" value="3" type="GuiResourceData"/>
+<property name="PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, [root, Constraints, constrs_1, abd.xdc], 4, false, false, false, false, false, true" value="1" type="GuiResourceData"/>
+<property name="PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, [root, Constraints], 2" value="1" type="GuiResourceData"/>
+<property name="PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, [root, Design Sources, Traffic_Light_Controller (Traffic_Light_Controller.v" value="2" type="GuiResourceData"/>
+<property name="PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, [root, Simulation Sources, sim_1, Traffic_Light_Controller_TB (Traffic_Light_Controller_TB.v" value="6" type="GuiResourceData"/>
+<property name="PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, [root, Simulation Sources, sim_1], 4" value="1" type="GuiResourceData"/>
+<property name="PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, [root, Simulation Sources], 3" value="2" type="GuiResourceData"/>
+<property name="PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, [, Project Manager, Add Sources], 2, false" value="2" type="GuiResourceData"/>
+<property name="PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, [, Simulation, Run Simulation], 11, false" value="2" type="GuiResourceData"/>
+<property name="PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, [, Simulation, Run Simulation], 11, false, false, false, false, false, true" value="1" type="GuiResourceData"/>
+<property name="PAResourceEtoH.GettingStartedView_CLEAR_LIST, Clear List" value="1" type="GuiResourceData"/>
+<property name="PAResourceEtoH.GettingStartedView_CREATE_NEW_PROJECT, Create New Project" value="1" type="GuiResourceData"/>
+<property name="PAResourceEtoH.GettingStartedView_RECENT_PROJECTS, C:/Users/HANIO/Downloads/Traffic-Light-Controller-using-Verilog-master/Traffic-Light-Controller-using-Verilog-master/project_5/project_5.xpr, 0, false, false, false, true, false" value="1" type="GuiResourceData"/>
+<property name="PAResourceItoN.MainMenuMgr_EXPORT, Export" value="5" type="GuiResourceData"/>
+<property name="PAResourceItoN.MainMenuMgr_FILE, File" value="18" type="GuiResourceData"/>
+<property name="PAResourceItoN.MainMenuMgr_OPEN_RECENT_FILE, Open Recent File" value="6" type="GuiResourceData"/>
+<property name="PAResourceItoN.MainMenuMgr_OPEN_RECENT_PROJECT, Open Recent Project" value="8" type="GuiResourceData"/>
+<property name="PAResourceOtoP.PAViews_CODE, Code" value="2" type="GuiResourceData"/>
+<property name="PAResourceOtoP.PartChooser_BOARDS, Artix-7 AC701 Evaluation Platform ; xilinx.com ; 1.1 ; xc7a200tfbg676-2 ; 676 ; 1.3 ; 365 ; 740 ; 269200 ; 8 ; 8 ; 400 ; 134600 ; 10 ; 1 ; 85 ; 0 ; 85 ; C ; 1.05 ; 0.95 ; 0.95 ; 0 ; 0 ; 0 ; 0 ; 0, 1, Artix-7 AC701 Evaluation Platform, 0" value="1" type="GuiResourceData"/>
+<property name="PAResourceOtoP.PartChooser_BOARDS, Boards" value="1" type="GuiResourceData"/>
+<property name="PAResourceOtoP.ProjectNameChooser_PROJECT_NAME, Traffic Light Contrroller" value="1" type="GuiResourceData"/>
+<property name="PAResourceOtoP.ProjectNameChooser_PROJECT_NAME, Traffic_Light_Controller" value="1" type="GuiResourceData"/>
+<property name="PAResourceQtoS.SrcChooserPanel_ADD_HDL_AND_NETLIST_FILES_TO_YOUR_PROJECT, Add Files" value="1" type="GuiResourceData"/>
+<property name="PAResourceQtoS.SrcChooserPanel_CREATE_FILE, Create File" value="2" type="GuiResourceData"/>
+<property name="RDIResource.BaseDialog_OK, OK" value="8" type="GuiResourceData"/>
+<property name="RDIResource.BaseDialog_YES, Yes" value="2" type="GuiResourceData"/>
+<property name="RDIResource.ConfirmSaveTextEditsDialog_YES, Yes" value="2" type="GuiResourceData"/>
+<property name="RDIResourceCommand.RDICommands_SAVE_ALL_FILES, Save All Files..." value="1" type="GuiResourceData"/>
+<property name="RDIResourceCommand.RDICommands_WAVEFORM_NEW_CONFIGURATION, New Waveform Configuration" value="1" type="GuiResourceData"/>
+<property name="RDIResourceCommand.RDICommands_WAVEFORM_SAVE_CONFIGURATION, Save Waveform Configuration" value="1" type="GuiResourceData"/>
+<property name="RDIResourceCommand.RDICommands_WAVEFORM_SAVE_CONFIGURATION_AS, Save Waveform Configuration As..." value="1" type="GuiResourceData"/>
+<property name="Traffic_Light_Controller.v, 1, 279" value="1" type="GuiResourceData"/>
+<property name="Traffic_Light_Controller_TB.v, 3, 281" value="1" type="GuiResourceData"/>
+<property name="abd.xdc, 88, 351" value="1" type="GuiResourceData"/>
+</item>
+<item name="Other">
+<property name="GuiMode" value="59" type="GuiMode"/>
+<property name="BatchMode" value="0" type="BatchMode"/>
+<property name="TclMode" value="45" type="TclMode"/>
+</item>
+</section>
+</application>
+</document>

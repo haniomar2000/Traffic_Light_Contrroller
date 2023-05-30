@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="Traffic_Light_Controller_behav.wdb" id="1">
+         <top_modules>
+            <top_module name="Traffic_Light_Controller" />
+            <top_module name="glbl" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <zoom_setting>
+      <ZoomStartTime time="999995991fs"></ZoomStartTime>
+      <ZoomEndTime time="1000000802fs"></ZoomEndTime>
+      <Cursor1Time time="1000000000fs"></Cursor1Time>
+   </zoom_setting>
+   <WVObjectSize size="18" />
+   <wvobject fp_name="/Traffic_Light_Controller/clk" type="logic">
+      <obj_property name="ElementShortName">clk</obj_property>
+      <obj_property name="ObjectShortName">clk</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Traffic_Light_Controller/rst" type="logic">
+      <obj_property name="ElementShortName">rst</obj_property>
+      <obj_property name="ObjectShortName">rst</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Traffic_Light_Controller/light_M1" type="array">
+      <obj_property name="ElementShortName">light_M1[2:0]</obj_property>
+      <obj_property name="ObjectShortName">light_M1[2:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Traffic_Light_Controller/light_S" type="array">
+      <obj_property name="ElementShortName">light_S[2:0]</obj_property>
+      <obj_property name="ObjectShortName">light_S[2:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Traffic_Light_Controller/light_MT" type="array">
+      <obj_property name="ElementShortName">light_MT[2:0]</obj_property>
+      <obj_property name="ObjectShortName">light_MT[2:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Traffic_Light_Controller/light_M2" type="array">
+      <obj_property name="ElementShortName">light_M2[2:0]</obj_property>
+      <obj_property name="ObjectShortName">light_M2[2:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Traffic_Light_Controller/count" type="array">
+      <obj_property name="ElementShortName">count[3:0]</obj_property>
+      <obj_property name="ObjectShortName">count[3:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Traffic_Light_Controller/ps" type="array">
+      <obj_property name="ElementShortName">ps[2:0]</obj_property>
+      <obj_property name="ObjectShortName">ps[2:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Traffic_Light_Controller/S1" type="array">
+      <obj_property name="ElementShortName">S1[31:0]</obj_property>
+      <obj_property name="ObjectShortName">S1[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Traffic_Light_Controller/S2" type="array">
+      <obj_property name="ElementShortName">S2[31:0]</obj_property>
+      <obj_property name="ObjectShortName">S2[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Traffic_Light_Controller/S3" type="array">
+      <obj_property name="ElementShortName">S3[31:0]</obj_property>
+      <obj_property name="ObjectShortName">S3[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Traffic_Light_Controller/S4" type="array">
+      <obj_property name="ElementShortName">S4[31:0]</obj_property>
+      <obj_property name="ObjectShortName">S4[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Traffic_Light_Controller/S5" type="array">
+      <obj_property name="ElementShortName">S5[31:0]</obj_property>
+      <obj_property name="ObjectShortName">S5[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Traffic_Light_Controller/S6" type="array">
+      <obj_property name="ElementShortName">S6[31:0]</obj_property>
+      <obj_property name="ObjectShortName">S6[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Traffic_Light_Controller/sec7" type="array">
+      <obj_property name="ElementShortName">sec7[31:0]</obj_property>
+      <obj_property name="ObjectShortName">sec7[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Traffic_Light_Controller/sec5" type="array">
+      <obj_property name="ElementShortName">sec5[31:0]</obj_property>
+      <obj_property name="ObjectShortName">sec5[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Traffic_Light_Controller/sec2" type="array">
+      <obj_property name="ElementShortName">sec2[31:0]</obj_property>
+      <obj_property name="ObjectShortName">sec2[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Traffic_Light_Controller/sec3" type="array">
+      <obj_property name="ElementShortName">sec3[31:0]</obj_property>
+      <obj_property name="ObjectShortName">sec3[31:0]</obj_property>
+   </wvobject>
+</wave_config>
